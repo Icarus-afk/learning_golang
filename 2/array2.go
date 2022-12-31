@@ -2,11 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
-	a := []int{1, 2, 3}
-	b := &a
-	b[1] = 5
-
-	fmt.Println(a)
-	fmt.Println(b)
+func main(){
+	fmt.Println(len("Hello World"))
+	fmt.Println("Hello World"[1])
+	fmt.Println("Hello "+"World")	
 }
